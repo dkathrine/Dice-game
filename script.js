@@ -17,6 +17,9 @@ if (player1roll > player2roll) {
     players[0].innerText = `Player 1 won!`;
 } else if (player1roll < player2roll) {
     players[1].innerText = `Player 2 won!`;
+} else if (player1roll == player2roll) {
+    players[0].innerHTML = `It's a draw!`;
+    players[1].innerHTML = `It's a draw!`;
 }
 
 //player 1 image switch case
